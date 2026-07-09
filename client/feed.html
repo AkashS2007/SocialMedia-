@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vibe — Your personalized feed">
+  <meta name="theme-color" content="#0a0a0f">
+  <title>Vibe — Feed</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>✦</text></svg>">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div id="navbar"></div>
+
+  <!-- Main Layout -->
+  <div class="layout-three-col">
+    <aside class="sidebar-left" id="sidebar-left"></aside>
+    <main class="main-content" id="main-content">
+      <!-- Composer + Feed injected by JS -->
+    </main>
+    <aside class="sidebar-right" id="sidebar-right"></aside>
+  </div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/components.js"></script>
+  <script src="/js/feed.js"></script>
+</body>
+</html>

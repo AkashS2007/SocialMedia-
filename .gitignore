@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Database
+server/db/*.db
+server/db/*.db-wal
+server/db/*.db-shm
+
+# Uploads (user-generated)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
